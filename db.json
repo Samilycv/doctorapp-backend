@@ -1,0 +1,274 @@
+{
+    "doctors": [
+      {
+        "id": 1,
+        "name": "Dr. John Smith",
+        "specialty": "Cardiologist",
+        "hospital": "City General Hospital",
+        "address": "123 Main Street, Cityville, USA",
+        "phone": "+1 (555) 123-4567",
+        "email": "dr.johnsmith@example.com",
+        "image_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D", 
+        "available_days": ["Monday", "Wednesday", "Friday"],
+        "available_hours": "9:00 am - 5:00 pm",
+        "rating": 4.8,
+        "reviews": [
+          {
+            "patient_name": "Jane Doe",
+            "date": "September 15, 2023",
+            "rating": 5,
+            "comments": "Dr. Smith is very knowledgeable and caring. He explained my condition in detail and answered all my questions."
+          },
+          {
+            "patient_name": "John Johnson",
+            "date": "August 28, 2023",
+            "rating": 4.5,
+            "comments": "I had a great experience with Dr. Smith. He made me feel comfortable and provided excellent care."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Dr. Sarah Williams",
+        "specialty": "Pediatrician",
+        "hospital": "Children's Hospital",
+        "address": "456 Oak Avenue, Kidstown, USA",
+        "phone": "+1 (555) 987-6543",
+        "email": "dr.sarahwilliams@example.com",
+        "image_url": "https://img.freepik.com/free-photo/portrait-woman-dark-green-tshirt_176420-28793.jpg", 
+        "available_days": ["Tuesday", "Thursday", "Saturday"],
+        "available_hours": "10:00 am - 6:00 pm",
+        "rating": 4.9,
+        "reviews": [
+          {
+            "patient_name": "Emily Smith",
+            "date": "October 5, 2023",
+            "rating": 5,
+            "comments": "Dr. Williams is amazing with kids. She's patient, kind, and always puts my child at ease during appointments."
+          },
+          {
+            "patient_name": "Michael Brown",
+            "date": "September 22, 2023",
+            "rating": 4.8,
+            "comments": "I highly recommend Dr. Williams. She's a caring and knowledgeable pediatrician who genuinely cares about her young patients."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Dr. Lisa Chang",
+        "specialty": "Dermatologist",
+        "hospital": "SkinCare Clinic",
+        "address": "789 Elm Street, Skintown, USA",
+        "phone": "+1 (555) 234-5678",
+        "email": "dr.lisachang@example.com",
+        "image_url": "https://dynl.mktgcdn.com/p/6f7g5hNT8FREhlRLLIrMUkDl9ELQruhlEXXmP0nU2dk/960x960.jpg", 
+        "available_days": ["Monday", "Wednesday", "Friday"],
+        "available_hours": "8:30 am - 4:30 pm",
+        "rating": 4.7,
+        "reviews": [
+          {
+            "patient_name": "Mark Johnson",
+            "date": "October 10, 2023",
+            "rating": 4.5,
+            "comments": "Dr. Chang is an expert in dermatology. She helped me with my skin condition, and I'm very satisfied with the results."
+          },
+          {
+            "patient_name": "Jennifer Lee",
+            "date": "September 18, 2023",
+            "rating": 4.8,
+            "comments": "I had a great experience with Dr. Chang. She's friendly and professional. I recommend her to anyone looking for a dermatologist."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Dr. Michael Davis",
+        "specialty": "Orthopedic Surgeon",
+        "hospital": "OrthoCare Hospital",
+        "address": "101 Pine Street, Jointville, USA",
+        "phone": "+1 (555) 345-6789",
+        "email": "dr.michaeldavis@example.com",
+        "image_url": "https://images.squarespace-cdn.com/content/v1/57211c1907eaa0a5f78cc76d/1523996278530-PNDIK5BMOYH3SDW5YS2K/5+doc.jpg", 
+        "available_days": ["Tuesday", "Thursday", "Saturday"],
+        "available_hours": "9:30 am - 5:30 pm",
+        "rating": 4.6,
+        "reviews": [
+          {
+            "patient_name": "Robert Smith",
+            "date": "October 8, 2023",
+            "rating": 4.5,
+            "comments": "Dr. Davis is an excellent orthopedic surgeon. He performed my knee surgery, and I'm grateful for his expertise."
+          },
+          {
+            "patient_name": "Laura Johnson",
+            "date": "September 20, 2023",
+            "rating": 4.7,
+            "comments": "I had a positive experience with Dr. Davis. He explained my treatment options clearly and helped me make informed decisions."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Dr. Emily Anderson",
+        "specialty": "Obstetrician-Gynecologist",
+        "hospital": "Women's Wellness Center",
+        "address": "567 Maple Avenue, Maternityville, USA",
+        "phone": "+1 (555) 456-7890",
+        "email": "dr.emilyanderson@example.com",
+        "image_url": "https://www.orlandohealth.com/-/media/images/physicians/a/n/d/anderson_emily_001.jpg",
+        "available_days": ["Monday", "Wednesday", "Friday"],
+        "available_hours": "8:00 am - 4:00 pm",
+        "rating": 4.9,
+        "reviews": [
+          {
+            "patient_name": "Lisa Brown",
+            "date": "October 12, 2023",
+            "rating": 5,
+            "comments": "Dr. Anderson is an excellent OB-GYN. She provides compassionate care and is highly knowledgeable in her field."
+          },
+          {
+            "patient_name": "David Wilson",
+            "date": "September 25, 2023",
+            "rating": 4.8,
+            "comments": "I trust Dr. Anderson with my healthcare needs. She's attentive, professional, and truly cares about her patients."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Dr. James Robinson",
+        "specialty": "Neurologist",
+        "hospital": "NeuroCare Center",
+        "address": "321 Oakwood Drive, Brainville, USA",
+        "phone": "+1 (555) 567-8901",
+        "email": "dr.jamesrobinson@example.com",
+        "image_url": "https://www.hss.edu/images/profiles/james-robinson-headshot.jpg", 
+        "available_days": ["Tuesday", "Thursday", "Saturday"],
+        "available_hours": "10:30 am - 6:30 pm",
+        "rating": 4.7,
+        "reviews": [
+          {
+            "patient_name": "Sarah Adams",
+            "date": "October 7, 2023",
+            "rating": 4.5,
+            "comments": "Dr. Robinson is a knowledgeable neurologist. He took the time to explain my condition and treatment options."
+          },
+          {
+            "patient_name": "Daniel Moore",
+            "date": "September 23, 2023",
+            "rating": 4.7,
+            "comments": "I'm satisfied with my experience at NeuroCare. Dr. Robinson and his team are professional and caring."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Dr. Maria Garcia",
+        "specialty": "Family Physician",
+        "hospital": "Family Care Clinic",
+        "address": "789 Cedar Lane, Familytown, USA",
+        "phone": "+1 (555) 678-9012",
+        "email": "dr.mariagarcia@example.com",
+        "image_url": "https://www.advancedderm.com/getmedia/c1ac72ad-f9a1-4377-92ac-f3fd97204e77/Maria-Garcia-Cardonna-cropped.jpg?width=330&height=398&ext=.jpg", 
+        "available_days": ["Monday", "Wednesday", "Friday"],
+        "available_hours": "9:00 am - 5:00 pm",
+        "rating": 4.8,
+        "reviews": [
+          {
+            "patient_name": "Carlos Hernandez",
+            "date": "October 9, 2023",
+            "rating": 5,
+            "comments": "Dr. Garcia is a caring family physician. She always listens to my concerns and provides great medical advice."
+          },
+          {
+            "patient_name": "Linda Martinez",
+            "date": "September 21, 2023",
+            "rating": 4.6,
+            "comments": "I've been a patient of Dr. Garcia for years. She's a dedicated and compassionate doctor who I trust completely."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Dr. Robert Taylor",
+        "specialty": "Ophthalmologist",
+        "hospital": "EyeCare Center",
+        "address": "456 Vision Street, Eyetown, USA",
+        "phone": "+1 (555) 789-0123",
+        "email": "dr.roberttaylor@example.com",
+        "image_url": "https://www.4cmedicalgroup.com/wp-content/uploads/2018/02/Taylor_Rob2_tn_RESIZED-copy.jpg", 
+        "available_days": ["Tuesday", "Thursday", "Saturday"],
+        "available_hours": "8:30 am - 4:30 pm",
+        "rating": 4.7,
+        "reviews": [
+          {
+            "patient_name": "Karen Wilson",
+            "date": "October 11, 2023",
+            "rating": 4.5,
+            "comments": "Dr. Taylor is a skilled ophthalmologist. He performed my eye surgery with precision, and I'm very satisfied."
+          },
+          {
+            "patient_name": "William Davis",
+            "date": "September 24, 2023",
+            "rating": 4.7,
+            "comments": "I trust Dr. Taylor with my eye care. He's professional and takes the time to explain procedures and options."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Dr. Susan Miller",
+        "specialty": "Psychiatrist",
+        "hospital": "Mental Health Center",
+        "address": "101 Mind Avenue, Psychville, USA",
+        "phone": "+1 (555) 890-1234",
+        "email": "dr.susanmiller@example.com",
+        "image_url": "https://documentapi-fargate-documentbucket-15qi4tpdvnhlz.s3.amazonaws.com/228/99a53bb0-3808-11ed-8b40-5ded968caaa6.jpg", 
+        "available_days": ["Monday", "Wednesday", "Friday"],
+        "available_hours": "10:00 am - 6:00 pm",
+        "rating": 4.9,
+        "reviews": [
+          {
+            "patient_name": "Jennifer Adams",
+            "date": "October 6, 2023",
+            "rating": 5,
+            "comments": "Dr. Miller is a compassionate psychiatrist. She's helped me manage my mental health effectively."
+          },
+          {
+            "patient_name": "Michael Brown",
+            "date": "September 19, 2023",
+            "rating": 4.8,
+            "comments": "I'm grateful for Dr. Miller's support. She's a great listener and provides valuable insights."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Dr. Laura Wilson",
+        "specialty": "Dentist",
+        "hospital": "Smile Dental Clinic",
+        "address": "567 Tooth Lane, Dentaltown, USA",
+        "phone": "+1 (555) 123-4567",
+        "email": "dr.laurawilson@example.com",
+        "image_url": "data:image/jpeg;base64,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", 
+        "available_days": ["Tuesday", "Thursday", "Saturday"],
+        "available_hours": "9:00 am - 5:00 pm",
+        "rating": 4.6,
+        "reviews": [
+          {
+            "patient_name": "John Smith",
+            "date": "October 14, 2023",
+            "rating": 4.5,
+            "comments": "Dr. Wilson is an excellent dentist. She's gentle, and my dental visits are always comfortable."
+          },
+          {
+            "patient_name": "Emily Davis",
+            "date": "September 26, 2023",
+            "rating": 4.7,
+            "comments": "I'm happy with the care I receive at Smile Dental Clinic. Dr. Wilson and her staff are friendly and skilled."
+          }
+        ]
+      }
+    ]
+  }
